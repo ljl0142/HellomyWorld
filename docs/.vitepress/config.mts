@@ -3,13 +3,25 @@ import mathjax3 from 'markdown-it-mathjax3'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "HelloAliceWorld",
-  description: "A site of myself just for fun:)",
+  lang: 'zh-CN',
+  title: "Infinite Dimensional Cup",
+  description: "A site of myself:)",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
+
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '自然哲学', link: '/markdown-examples' },
+      { text: 'AI', link: '/ai' },
+      { text: '杂谈', link: '/misc' },
+      { text: '小游戏', link: '/games' },
+      { text: '不靠谱生活指南', link: '/life'},
+      { text: '关于', link: '/about' }
     ],
 
     sidebar: [
