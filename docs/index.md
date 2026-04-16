@@ -10,6 +10,12 @@ hero:
     - theme: brand
       text: 开始探索
       link: /markdown-examples
+    - theme: alt
+      text: 给我留言
+      link: /about
+    - theme: sponsor
+      text: 神秘小按钮
+      link: /me
 
 features:
   - title: 这个网站能做什么？

@@ -6,6 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "Infinite Dimensional Cup",
   description: "A site of myself:)",
+  lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -26,17 +27,21 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '更新日志',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '内容1', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/ljl0142/HellomyWorld' }
+    ],
+
+    lastUpdated: {
+      text: '最后更新于'
+    }
   },
   markdown: {
     config: (md: { use: (arg0: any) => void }) => {
