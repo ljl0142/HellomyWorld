@@ -17,10 +17,11 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '自然哲学', link: '/markdown-examples' },
+      { text: '数学与逻辑', link: '/logic' },
       { text: 'AI', link: '/ai' },
       { text: '杂谈', link: '/misc' },
       { text: '小游戏', link: '/games' },
+      {text: '幻想', link: '/fantasy'},
       { text: '不靠谱生活指南', link: '/life'},
       { text: '关于', link: '/about' }
     ],

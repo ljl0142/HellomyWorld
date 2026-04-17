@@ -15,7 +15,7 @@ hero:
       link: /about
     - theme: sponsor
       text: 神秘小按钮
-      link: /me
+      link: /relay
 
 features:
   - title: 这个网站能做什么？
