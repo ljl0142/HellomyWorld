@@ -48,5 +48,5 @@ export default defineConfig({
     config: (md: { use: (arg0: any) => void }) => {
       md.use(mathjax3)
     }
-  }
+  },
 })
