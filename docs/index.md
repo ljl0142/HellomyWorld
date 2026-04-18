@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始探索
-      link: /markdown-examples
+      link: /logic
     - theme: alt
       text: 给我留言
       link: /about
