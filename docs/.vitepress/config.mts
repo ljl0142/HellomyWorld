@@ -37,7 +37,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ljl0142/HellomyWorld' }
+      { icon: 'github', link: 'https://github.com' }
     ],
 
     lastUpdated: {
