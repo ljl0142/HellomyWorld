@@ -4,6 +4,7 @@ lang: zh-CN
 sidebar: false
 prev: false
 next: false
+comments: false
 ---
 
 # 关于

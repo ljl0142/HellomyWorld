@@ -1,5 +1,6 @@
 # 忽略依赖包目录
 node_modules/
+docs/public/games/alien_invasion/
 
 # 忽略构建输出目录和缓存
 docs/.vitepress/cache/
